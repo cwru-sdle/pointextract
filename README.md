@@ -1,10 +1,10 @@
 # pointextract
-Polar to cartesian transforms using circular and elliptical point sampling
+Polar to cartesian transforms using annular point sampling
 
 Designed to unwrap 2D cross section images of 3D X-ray computed tomography scans.
-The transformation enables the surface of a circular object to be aligned for downsteam analysis and a topological transform.
+The topological transformation enables the surface of a circular or elliptical object to be aligned for downsteam analysis.
 
-<img src="./figs/workflow.png" width="400">
+<img src="./figs/workflow.png" width="800">
 
 ## Installation
 
