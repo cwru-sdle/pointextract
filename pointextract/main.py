@@ -60,7 +60,7 @@ def unwrap_circle(img_arr: np.ndarray, radius: int, center: Tuple[int, int], poi
     array_circle = extract_img_pix(circle_points, img_arr)
     return array_circle
 
-def unwrap_image(img_arr: np.ndarray, ellipse: EllipseModel, radial_distance: int = 40, points: int = 600) -> np.ndarray:
+def unwrap_image(img_arr: np.ndarray, ellipse: EllipseModel, radial_distance: int = 20, points: int = 600) -> np.ndarray:
     """
     Unwrap an annular region of an image centered around a specified ellipse into a 2D array.
 

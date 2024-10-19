@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = 'pointextract'
+version = "0.1"
+description = "Polar to cartesian transforms using circular and elliptical point sampling."
+
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    'numpy',
+    'scikit-image',
+]
+
+license = {file = "LICENSE"}
+
+classifiers = [
+    'Development Status :: 4 - Beta',
+    'License :: OSI Approved :: BSD License',
+    'Operating System :: OS Independent',
+    'Intended Audience :: Science/Research',
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 3',
+    'Topic :: Scientific/Engineering',
+]
+
+authors = [
+  {name = "Thomas Ciardi", email = "thomas.ciardi@case.edu"},
+  {name = "Roger H. French", email = "rxf131@case.edu"},
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[project.urls]
+"Bug Tracker" = "https://github.com/cwru-sdle/pointextract/issues"
+"Source Code" = "https://github.com/cwru-sdle/pointextract"
+
+[tool.setuptools.packages.find]
+include = ["pointextract*"]
+
+[tool.setuptools_scm]
