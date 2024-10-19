@@ -4,7 +4,7 @@ Polar to cartesian transforms using annular point sampling
 Designed to unwrap 2D cross section images of 3D X-ray computed tomography scans.
 The topological transformation enables the surface of a circular or elliptical object to be aligned for downsteam analysis.
 
-<img src="./docs/workflow.png" width="800">
+<img src="./docs/workflow.png" width="700">
 
 ## Installation
 
@@ -34,6 +34,6 @@ This package is still in early development. Please feel free to post to the GitH
 ## Acknowledgements
 This material is based upon research in the Materials Data Science for Stockpile Stewardship Center of Excellence (MDS3-COE).
 
-[Case Western Reserve University, SDLElab] [1]
+<cite> [Case Western Reserve University, SDLElab] [1]</cite>
 
 [1]: http://sdle.case.edu
