@@ -1,4 +1,5 @@
 site_name: pointextract
+site_url: https://cwru-sdle.github.io/pointextract/
 theme:
   name: material
   features:
