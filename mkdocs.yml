@@ -44,3 +44,6 @@ markdown_extensions:
   - pymdownx.mark
   - attr_list
   - md_in_html
+
+copyright: |
+  &copy; 2024 <a href="https://mds3-coe.com/"  target="_blank" rel="noopener">The Center for Materials Data Science for Stockpile Stewardship</a>

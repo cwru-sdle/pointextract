@@ -27,8 +27,10 @@ classifiers = [
 test = ["pytest"]
 
 [project.urls]
+"Homepage" = "https://github.com/cwru-sdle/pointextract"
+"Documentation" = "https://cwru-sdle.github.io/pointextract/"
+"Tracker" = "https://github.com/cwru-sdle/pointextract/issues"
 "Source Code" = "https://github.com/cwru-sdle/pointextract"
-"Bug Tracker" = "https://github.com/cwru-sdle/pointextract/issues"
 
 [tool.setuptools.packages.find]
 include = ["pointextract*"]
